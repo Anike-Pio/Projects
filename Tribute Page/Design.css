@@ -1,0 +1,81 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*CARS DESIGN LAYOUT*/
+#cars {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: space-around;
+    background: linear-gradient(rgb(0,0,0,0.8),
+    rgb(0,0,0,0.8));
+}
+
+#cars img {
+    border: 3px solid black;
+    border-radius: 5%;
+    width: 30%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.Name {
+    font-size: 50px;
+    font-family: Helvetica;
+    color: darkblue;
+    width: 100%;
+    background: black;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+/*TRIBUTE PAGE DESIGN*/
+#title {
+    font-size: 60px;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: #006400;
+}
+
+#tribute {
+    background-color: bisque;
+} 
+
+#image {
+    max-width: 80%;
+    display: block;
+    height: auto;
+    margin: auto;
+}
+
+#img-caption {
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+#tribute-info {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+#tribute-info p {
+    font-size: 20px;
+}
+
+#tribute-link {
+    font-size: 20px;
+    padding: 30px;
+    color: blue;
+    width: 80%;
+    margin: auto;
+    font-weight: bold;
+
+}
